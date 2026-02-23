@@ -1,0 +1,23 @@
+{
+  "name": "se3040-af-nodejs-lab",
+  "version": "1.0.0",
+  "description": "Node.js Lab Exercises",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimuthu02/SE3040-AF-nodejs-lab.git"
+  },
+  "keywords": [
+    "nodejs",
+    "lab"
+  ],
+  "author": "Dimuthu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimuthu02/SE3040-AF-nodejs-lab/issues"
+  },
+  "homepage": "https://github.com/Dimuthu02/SE3040-AF-nodejs-lab#readme"
+}
