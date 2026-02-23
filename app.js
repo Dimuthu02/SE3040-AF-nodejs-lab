@@ -1,16 +1,14 @@
 const myPromise = new Promise((resolve, reject) => {
-  let condition = true; // Try changing to false
-  if (condition) {
-    resolve("Success!");
-  } else {
-    reject("Failure!");
-  }
+  resolve("Success!");
 });
 
-myPromise
-  .then((result) => {
+async function myFunction() {
+  try {
+    const result = await myPromise;
     console.log(result);
-  })
-  .catch((error) => {
+  } catch (error) {
     console.log(error);
-  });
+  }
+}
+
+myFunction();
